@@ -1,0 +1,290 @@
+2020-06-09 11:58:36,440 ERROR 23544 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/mac/code/egg-example/app/view
+    at Map.resolve (/Users/mac/code/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/code/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:20:5)
+    at async /Users/mac/code/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/code/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/code/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 23544
+hostname: wangchen
+
+2020-06-09 11:58:52,491 ERROR 23544 [-/127.0.0.1/-/3ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/mac/code/egg-example/app/view
+    at Map.resolve (/Users/mac/code/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/code/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:20:5)
+    at async /Users/mac/code/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/code/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/code/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 23544
+hostname: wangchen
+
+2020-06-09 11:59:34,250 ERROR 23663 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Users/mac/code/egg-example/app/view
+    at Map.resolve (/Users/mac/code/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/mac/code/egg-example/node_modules/egg-view/lib/context_view.js:50:22)
+    at async NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:20:5)
+    at async /Users/mac/code/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/code/egg-example/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/code/egg-example/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/code/egg-example/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 23663
+hostname: wangchen
+
+2020-06-09 14:47:34,978 ERROR 23846 [-/127.0.0.1/-/6ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:10:12)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23846
+hostname: wangchen
+
+2020-06-09 14:48:08,028 ERROR 23846 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:10:12)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23846
+hostname: wangchen
+
+2020-06-09 14:49:18,347 ERROR 23857 [-/127.0.0.1/-/6ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:10:12)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23857
+hostname: wangchen
+
+2020-06-09 14:53:54,001 ERROR 23880 [-/127.0.0.1/-/5ms GET /news] nodejs.ReferenceError: page is not defined
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:16:35)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23880
+hostname: wangchen
+
+2020-06-09 14:53:55,568 ERROR 23880 [-/127.0.0.1/-/1ms GET /news] nodejs.ReferenceError: page is not defined
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:16:35)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23880
+hostname: wangchen
+
+2020-06-09 14:55:30,906 ERROR 23890 [-/127.0.0.1/-/21ms GET /news] nodejs.ReferenceError: page is not defined
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:17:35)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23890
+hostname: wangchen
+
+2020-06-09 14:55:36,990 ERROR 23890 [-/127.0.0.1/-/10ms GET /news] nodejs.ReferenceError: page is not defined
+    at NewsService.list (/Users/mac/code/egg-example/app/service/news.js:17:35)
+    at NewsController.list (/Users/mac/code/egg-example/app/controller/news.js:24:45)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/code/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/code/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/code/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/code/egg-example/node_modules/koa-compose/index.js:44:32)
+
+pid: 23890
+hostname: wangchen
+
+2020-06-09 14:57:14,138 ERROR 23916 [-/127.0.0.1/-/5035ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5016,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23916
+hostname: wangchen
+
+2020-06-09 14:59:17,648 ERROR 23916 [-/127.0.0.1/-/5012ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23916
+hostname: wangchen
+
+2020-06-09 14:59:52,694 ERROR 23916 [-/127.0.0.1/-/5012ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23916
+hostname: wangchen
+
+2020-06-09 15:05:32,545 ERROR 23968 [-/127.0.0.1/-/5030ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5023,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23968
+hostname: wangchen
+
+2020-06-09 15:06:18,188 ERROR 23968 [-/127.0.0.1/-/5009ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5007,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23968
+hostname: wangchen
+
+2020-06-09 15:08:29,983 ERROR 23968 [-/127.0.0.1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5006,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23968
+hostname: wangchen
+
+2020-06-09 15:08:39,414 ERROR 23968 [-/127.0.0.1/-/5005ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23968
+hostname: wangchen
+
+2020-06-09 15:11:53,636 ERROR 24056 [-/127.0.0.1/-/5036ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/mac/code/egg-example/node_modules/urllib/lib/urllib.js:946:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5027,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 24056
+hostname: wangchen
+
